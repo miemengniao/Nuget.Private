@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <version>0.0.2</version>
+    <authors>MieMengBird</authors>
+    <owners>MieMengBird</owners>
+    <id>PackageSample</id>
+    <title>MyDLL</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>测试Nuget.priavte的package</description>
+    <copyright>MIT</copyright>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <file  src="bin\Debug\PackageSample.dll" target="lib\net461\PackageSample.dll" />
+    <file  src="bin\Debug\PackageSample.xml" target="lib\net461\PackageSample.xml" />
+  </files>
+</package>
